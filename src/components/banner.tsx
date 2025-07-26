@@ -48,18 +48,7 @@ const Banner = ({ hide, setHide }: BannerProps) => {
             />
             <span className="sr-only">Light bulb</span>
           </span>
-          <span>
-            Like what you see? Visit my{" "}
-            <Link
-              to="https://yourdomain.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="inline font-medium text-blue-400 underline underline-offset-2 hover:no-underline"
-            >
-              latest portfolio site
-            </Link>
-            .
-          </span>
+         
         </p>
       </div>
       <div className="flex items-center">

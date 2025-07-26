@@ -66,15 +66,15 @@ export const NAV_LINKS = [
 export const SERVICES = [
   {
     title: "Web Developer",
-    icon: "/src/assets/webdev.png",
+    icon: web,
   },
   {
     title: "React Native Developer",
-    icon: "/src/assets/mobile.png",
+    icon: mobile,
   },
   {
     title: "Backend Developer",
-    icon: "/src/assets/backend.png",
+    icon: backend,
   },
 ] as const;
 
@@ -139,7 +139,7 @@ export const EXPERIENCES = [
    {
     title: "Full Stack Developer",
     company_name: "Total Home S.A.",
-    icon: "/src/assets/company/totalhome_logo.jpg",
+    icon: meta,
     iconBg: "#383E56",
     date: "Jul 2023 – Present",
     points: [
@@ -155,7 +155,7 @@ export const EXPERIENCES = [
   {
     title: "Java Developer",
     company_name: "FLEX TECH Arg.",
-    icon: "/src/assets/company/flex_tech_arg_logo.jpg",
+    icon: shopify,
     iconBg: "#E6DEDD",
     date: "Jul 2022 – Jul 2023",
     points: [
@@ -170,7 +170,7 @@ export const EXPERIENCES = [
   {
     title: "Frontend Developer",
     company_name: "Inteligentia SRL",
-    icon: "/src/assets/company/inteligentia_logo.jpg",
+    icon: tesla,
     iconBg: "#383E56",
     date: "Nov 2021 – Jul 2023",
     points: [
@@ -185,7 +185,7 @@ export const EXPERIENCES = [
   {
     title: "Frontend Mentor",
     company_name: "Argentina Programa",
-    icon: "/src/assets/company/1646458289482.jpg",
+    icon: starbucks,
     iconBg: "#E6DEDD",
     date: "Nov 2022 – Mar 2023",
     points: [
@@ -197,7 +197,7 @@ export const EXPERIENCES = [
   {
     title: "Web Developer",
     company_name: "Freelance",
-    icon: "/src/assets/company/freelance_self_employed_official_logo.jpg",
+    icon: youtube,
     iconBg: "#383E56",
     date: "Dec 2020 – Nov 2021",
     points: [
@@ -209,7 +209,7 @@ export const EXPERIENCES = [
   {
     title: "Marketing & Sales Manager",
     company_name: "Vuelta Abajo Social Club",
-    icon: "/src/assets/company/vuelta_abajo_social_club_logo.jpg",
+    icon: creator,
     iconBg: "#E6DEDD",
     date: "Dec 2019 – Sep 2020",
     points: [
